@@ -99,3 +99,5 @@ class Test01Listen implements ShouldQueue
 - [[Linux] Supervisor的使用](https://www.huweihuang.com/article/linux/supervisor-usage/)
 
 - [ Laravel php_fpm plus nginx plus supervisor Docker setup](https://gist.github.com/BretFisher/54ff7c4cae294c39f1afea4786efd321)
+
+- [supervisord.conf](https://github.com/galexrt/docker-nginx-php-fpm/blob/master/supervisord.conf)
