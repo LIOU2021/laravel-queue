@@ -71,6 +71,10 @@ config 位置:
 - /etc/supervisor/conf.d/supervisord.conf
 
 
+## 使listen使用queue
+```php
+class Test01Listen implements ShouldQueue
+```
 
 
 ## 參考
