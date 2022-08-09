@@ -95,3 +95,7 @@ class Test01Listen implements ShouldQueue
 - [supervisor 在docker自動啟動的問題](https://stackoverflow.com/questions/63608075/userwarning-supervisord-is-running-as-root-and-it-is-searching-for-its-configur)
 
 - [Supervisor and Docker](https://advancedweb.hu/supervisor-with-docker-lessons-learned)
+
+- [[Linux] Supervisor的使用](https://www.huweihuang.com/article/linux/supervisor-usage/)
+
+- [ Laravel php_fpm plus nginx plus supervisor Docker setup](https://gist.github.com/BretFisher/54ff7c4cae294c39f1afea4786efd321)
