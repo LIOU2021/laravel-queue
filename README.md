@@ -54,6 +54,17 @@ supervisorctl
 //檢查進程狀況
 supervisorctl status
 
+1.//重新讀取當前運行配置的supervisord.conf
+reread
+
+2.//根據目前conf配置重載進程proccess
+update
+
+3.//重新啟動proccess，但並不會更新conf
+restart <name>
+restart <name> <name>
+restart all
+
 ```
 
 ## 相關位置與檔案
@@ -101,3 +112,5 @@ class Test01Listen implements ShouldQueue
 - [ Laravel php_fpm plus nginx plus supervisor Docker setup](https://gist.github.com/BretFisher/54ff7c4cae294c39f1afea4786efd321)
 
 - [supervisord.conf](https://github.com/galexrt/docker-nginx-php-fpm/blob/master/supervisord.conf)
+
+- [supervisorctl常用指令](https://segmentfault.com/a/1190000018948530)
