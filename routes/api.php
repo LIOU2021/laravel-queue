@@ -21,4 +21,6 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 
 Route::prefix('test')->group(function(){
     Route::get('/',[TestController::class,'index']);
+    Route::get('/thread',[TestController::class,'thread']);
+    Route::get('/shell',[TestController::class,'shell']);
 });
