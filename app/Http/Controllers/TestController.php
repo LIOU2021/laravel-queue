@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Events\TestEvent;
 use App\Jobs\Chanel1;
+use App\Jobs\Chanel2;
 use Illuminate\Http\Request;
 use Symfony\Component\Process\Process;
 
@@ -44,5 +45,6 @@ class TestController extends Controller
     public function queueChannel(Request $request)
     {
         Chanel1::dispatch($request->text)->onQueue('article_views');
+        Chanel2::dispatch('from 2 ! '.$request->text)->onQueue('default');
     }
 }

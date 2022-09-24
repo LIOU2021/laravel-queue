@@ -1,0 +1,74 @@
+[2022-09-24 14:22:12] local.DEBUG: channel1 : 開始dddd  
+[2022-09-24 14:22:22] local.DEBUG: channel1 : 結束dddd  
+[2022-09-24 14:22:22] local.DEBUG: channel1 : 開始aaaa  
+[2022-09-24 14:22:32] local.DEBUG: channel1 : 結束aaaa  
+[2022-09-24 14:22:33] local.DEBUG: channel1 : 開始bbbb  
+[2022-09-24 14:22:43] local.DEBUG: channel1 : 結束bbbb  
+[2022-09-24 14:22:43] local.DEBUG: channel1 : 開始cccc  
+[2022-09-24 14:22:53] local.DEBUG: channel1 : 結束cccc  
+[2022-09-24 14:22:53] local.DEBUG: channel1 : 開始eeee  
+[2022-09-24 14:23:03] local.DEBUG: channel1 : 結束eeee  
+[2022-09-24 14:23:03] local.DEBUG: channel1 : 開始ffff  
+[2022-09-24 14:23:13] local.DEBUG: channel1 : 結束ffff  
+[2022-09-24 14:23:13] local.DEBUG: channel2 : 開始from 2 ! dddd  
+[2022-09-24 14:23:23] local.DEBUG: channel2 : 結束from 2 ! dddd  
+[2022-09-24 14:23:24] local.DEBUG: channel2 : 開始from 2 ! bbbb  
+[2022-09-24 14:23:34] local.DEBUG: channel2 : 結束from 2 ! bbbb  
+[2022-09-24 14:23:34] local.DEBUG: channel2 : 開始from 2 ! cccc  
+[2022-09-24 14:23:44] local.DEBUG: channel2 : 結束from 2 ! cccc  
+[2022-09-24 14:23:44] local.DEBUG: channel2 : 開始from 2 ! aaaa  
+[2022-09-24 14:23:54] local.DEBUG: channel2 : 結束from 2 ! aaaa  
+[2022-09-24 14:23:54] local.DEBUG: channel2 : 開始from 2 ! eeee  
+[2022-09-24 14:24:04] local.DEBUG: channel2 : 結束from 2 ! eeee  
+[2022-09-24 14:24:05] local.DEBUG: channel2 : 開始from 2 ! ffff  
+[2022-09-24 14:24:15] local.DEBUG: channel2 : 結束from 2 ! ffff  
+====================================================================
+[2022-09-24 14:30:06] local.DEBUG: channel1 : 開始eeee  
+[2022-09-24 14:30:06] local.DEBUG: channel2 : 開始from 2 ! dddd  
+[2022-09-24 14:30:16] local.DEBUG: channel1 : 結束eeee  
+[2022-09-24 14:30:16] local.DEBUG: channel2 : 結束from 2 ! dddd  
+[2022-09-24 14:30:17] local.DEBUG: channel1 : 開始dddd  
+[2022-09-24 14:30:17] local.DEBUG: channel2 : 開始from 2 ! aaaa  
+[2022-09-24 14:30:27] local.DEBUG: channel1 : 結束dddd  
+[2022-09-24 14:30:27] local.DEBUG: channel2 : 結束from 2 ! aaaa  
+[2022-09-24 14:30:27] local.DEBUG: channel1 : 開始bbbb  
+[2022-09-24 14:30:27] local.DEBUG: channel2 : 開始from 2 ! cccc  
+[2022-09-24 14:30:37] local.DEBUG: channel1 : 結束bbbb  
+[2022-09-24 14:30:37] local.DEBUG: channel2 : 結束from 2 ! cccc  
+[2022-09-24 14:30:37] local.DEBUG: channel2 : 開始from 2 ! eeee  
+[2022-09-24 14:30:37] local.DEBUG: channel1 : 開始cccc  
+[2022-09-24 14:30:47] local.DEBUG: channel2 : 結束from 2 ! eeee  
+[2022-09-24 14:30:47] local.DEBUG: channel1 : 結束cccc  
+[2022-09-24 14:30:47] local.DEBUG: channel1 : 開始aaaa  
+[2022-09-24 14:30:47] local.DEBUG: channel2 : 開始from 2 ! bbbb  
+[2022-09-24 14:30:57] local.DEBUG: channel1 : 結束aaaa  
+[2022-09-24 14:30:57] local.DEBUG: channel2 : 結束from 2 ! bbbb  
+[2022-09-24 14:30:58] local.DEBUG: channel2 : 開始from 2 ! ffff  
+[2022-09-24 14:30:58] local.DEBUG: channel1 : 開始ffff  
+[2022-09-24 14:31:08] local.DEBUG: channel2 : 結束from 2 ! ffff  
+[2022-09-24 14:31:08] local.DEBUG: channel1 : 結束ffff  
+====================================================================
+[2022-09-24 14:35:11] local.DEBUG: channel1 : 開始dddd  
+[2022-09-24 14:35:11] local.DEBUG: channel1 : 開始cccc  
+[2022-09-24 14:35:12] local.DEBUG: channel1 : 開始bbbb  
+[2022-09-24 14:35:12] local.DEBUG: channel1 : 開始aaaa  
+[2022-09-24 14:35:13] local.DEBUG: channel1 : 開始ffff  
+[2022-09-24 14:35:13] local.DEBUG: channel1 : 開始eeee  
+[2022-09-24 14:35:13] local.DEBUG: channel2 : 開始from 2 ! dddd  
+[2022-09-24 14:35:13] local.DEBUG: channel2 : 開始from 2 ! aaaa  
+[2022-09-24 14:35:21] local.DEBUG: channel1 : 結束dddd  
+[2022-09-24 14:35:21] local.DEBUG: channel1 : 結束cccc  
+[2022-09-24 14:35:22] local.DEBUG: channel2 : 開始from 2 ! bbbb  
+[2022-09-24 14:35:22] local.DEBUG: channel2 : 開始from 2 ! cccc  
+[2022-09-24 14:35:22] local.DEBUG: channel1 : 結束bbbb  
+[2022-09-24 14:35:22] local.DEBUG: channel2 : 開始from 2 ! eeee  
+[2022-09-24 14:35:22] local.DEBUG: channel1 : 結束aaaa  
+[2022-09-24 14:35:22] local.DEBUG: channel2 : 開始from 2 ! ffff  
+[2022-09-24 14:35:23] local.DEBUG: channel1 : 結束ffff  
+[2022-09-24 14:35:23] local.DEBUG: channel1 : 結束eeee  
+[2022-09-24 14:35:23] local.DEBUG: channel2 : 結束from 2 ! dddd  
+[2022-09-24 14:35:23] local.DEBUG: channel2 : 結束from 2 ! aaaa  
+[2022-09-24 14:35:32] local.DEBUG: channel2 : 結束from 2 ! bbbb  
+[2022-09-24 14:35:32] local.DEBUG: channel2 : 結束from 2 ! cccc  
+[2022-09-24 14:35:32] local.DEBUG: channel2 : 結束from 2 ! eeee  
+[2022-09-24 14:35:32] local.DEBUG: channel2 : 結束from 2 ! ffff  
