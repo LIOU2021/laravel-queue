@@ -24,6 +24,7 @@ Route::prefix('test')->group(function () {
     Route::get('/', [TestController::class, 'index']);
     Route::get('/thread', [TestController::class, 'thread']);
     Route::get('/shell', [TestController::class, 'shell']);
+    Route::get('/queue-channel', [TestController::class, 'queueChannel']);
 });
 
 Route::prefix('articles')->group(function () {
