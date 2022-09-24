@@ -35,7 +35,8 @@ class ArticleAddView implements ShouldQueue
     public function handle()
     {
         $article = Article::find($this->id);
-        $article->views++;
+        $views = $article->views++;
+        logger('views : ' . $views);
         $article->save();
     }
 }
