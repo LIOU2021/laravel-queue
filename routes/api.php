@@ -20,12 +20,13 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-Route::prefix('test')->group(function(){
-    Route::get('/',[TestController::class,'index']);
-    Route::get('/thread',[TestController::class,'thread']);
-    Route::get('/shell',[TestController::class,'shell']);
+Route::prefix('test')->group(function () {
+    Route::get('/', [TestController::class, 'index']);
+    Route::get('/thread', [TestController::class, 'thread']);
+    Route::get('/shell', [TestController::class, 'shell']);
 });
 
-Route::prefix('articles')->group(function(){
-    Route::get('/',[ArticleController::class,'index']);
+Route::prefix('articles')->group(function () {
+    Route::get('/', [ArticleController::class, 'index']);
+    Route::get('/{id}', [ArticleController::class, 'show'])->whereNumber('id');
 });

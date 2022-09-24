@@ -11,4 +11,12 @@ class ArticleController extends Controller
     {
         return Article::all();
     }
+
+    public function show($id)
+    {
+        $article = Article::find($id);
+        $article->views++;
+        $article->save();
+        return $article->refresh();
+    }
 }
