@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ArticleController;
 use App\Http\Controllers\TestController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
@@ -23,4 +24,8 @@ Route::prefix('test')->group(function(){
     Route::get('/',[TestController::class,'index']);
     Route::get('/thread',[TestController::class,'thread']);
     Route::get('/shell',[TestController::class,'shell']);
+});
+
+Route::prefix('articles')->group(function(){
+    Route::get('/',[ArticleController::class,'index']);
 });
