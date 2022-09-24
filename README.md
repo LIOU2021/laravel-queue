@@ -32,7 +32,7 @@
 TestEvent::dispatch($data);
 ```
 
-## 更新queue 排成
+## 更新queue 排程
 ```
 php artisan queue:restart
 ```
