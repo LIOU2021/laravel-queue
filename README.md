@@ -27,9 +27,17 @@
     ];
 ```
 
+產 job
+- php artisan make:job ArticleAddView
 ## 執行
 ```php
 TestEvent::dispatch($data);
+ArticleAddView::dispatch($data)->onQueue('article_views');//如果沒指定頻道的話，就是預設default
+```
+
+## 開啟queue
+```bash
+php artisan queue:work --queue=article_views,default --sleep=3 --tries=3
 ```
 
 ## 更新queue 排程
